@@ -1,0 +1,63 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#demo {
+  padding: 100px 0;
+}
+#demo .col-md-6 {
+  margin: auto;
+}
+#demo .col-md-6 .chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #afbeda;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid #8695eb;
+}
+#demo .col-md-6 .chat h3 {
+  display: inline-block;
+  background: #d6cd2b;
+  color: white;
+  border-radius: 40px;
+  margin: 10px;
+  padding: 7px 13px;
+}
+#demo .col-md-6 .chat .message {
+  width: 480px;
+  height: 220px;
+  border-radius: 20px;
+  background: white;
+  overflow: auto;
+}
+#demo .col-md-6 .chat .message .end {
+  text-align: end;
+}
+#demo .col-md-6 .chat .message::-webkit-scrollbar {
+  display: none;
+}
+#demo .col-md-6 .chat .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+#demo .col-md-6 .chat .text input {
+  border-radius: 15px;
+  padding: 6px 15px;
+}
+#demo .col-md-6 .chat .text .sent h3 {
+  border: 1px solid #d6cd2b;
+  background: #d6cd2b;
+  color: white;
+  text-align: center;
+  margin: 0 5px;
+  padding: 6px;
+  width: 65px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
